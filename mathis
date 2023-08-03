@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mathis BOCHE - Video Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/547050/pexels-photo-547050.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Le reste du style reste inchangé */
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+            background-color: #fff;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        section h2 {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 16px;
+            color: #444;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .services-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .services-list li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .services-list li::before {
+            content: "\1F449"; /* Emoji: Pointing Finger */
+            position: absolute;
+            left: 0;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .contact-info a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- En-tête -->
+        <header>
+            <h1>Mathis BOCHE</h1>
+            <p>Visual Storyteller and Video Editor 🎬✨</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Section About -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Mathis, a video editor passionate about creating captivating visual stories.
+                I love bringing ideas to life through impactful and inspiring videos. 🌟🎥
+            </p>
+            <p>
+                My skills include creative editing, post-production, and visual storytelling.
+                I'm always on the lookout for exciting new projects to work on. 💡🎬
+            </p>
+        </section>
+
+        <!-- Section Services -->
+        <section id="services">
+            <h2>Services</h2>
+            <ul class="services-list">
+                <li>Creative video editing 🎨🎬</li>
+                <li>Promotional videos 📹📈</li>
+                <li>Advertisement videos 📺📊</li>
+                <li>Travel video editing 🌴✈️</li>
+            </ul>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:mathisboche@outlook.fr">mathisboche@outlook.fr</a></p>
+                <p>Phone: <a href="tel:+33601868589">+33 6 01 86 85 89</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/videoproeditor/" target="_blank">@videoproeditor</a></p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2023 Mathis BOCHE - Video Editor</p>
+        </footer>
+    </div>
+</body>
+
+</html>
